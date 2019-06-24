@@ -4,10 +4,12 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.springframework.stereotype.Service;
 
 import javax.persistence.Column;
 import javax.persistence.MappedSuperclass;
 
+@Service
 @Getter
 @Setter
 @AllArgsConstructor
